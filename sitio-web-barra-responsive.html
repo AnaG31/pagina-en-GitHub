@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi primer Website</title>
+    <link rel="stylesheet" type="text/CSS" href="styles-barra-responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-nav">
+        <nav class="navbar">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li>
+              <a href="sitio-web-barra-responsive.html">INICIO</a>
+            </li>
+            <li>
+              <a href="about-barra-responsive.html">SOBRE NOSOTROS</a>
+            </li>
+            <li>
+              <a href="services-barra-responsive.html">SERVICIOS</a>
+            </li>
+            <li>
+              <a href="contact-barra-responsive.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button-menu" onclick="openMenu()">Menu</button>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <div class="container">
+        <h1>Bienvenidos a mi primer Website!</h1>
+        <h2>Presentación</h2>
+        <p>Soy Anabela, ¡y esta es mi primera página Web!</p>
+        <p>
+          Estoy aprendiendo desarrollo web para crear sitios web visualmente
+          atrapantes y funcionales
+        </p>
+      </div>
+      <div class="column">
+        <h2>Contenido del curso</h2>
+        <p>
+          En este curso, estaré aprendiendo HTM, CSS y JavaScript. Estos
+          lenguajes me ayudarán a crear una base sólida en el desarrollo web
+          front-end.
+        </p>
+      </div>
+      <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/lhtFPR1n0vQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p>Derechos Reservados</p>
+      <button onclick="showAlert ()" aria-label="Dispara una alerta de saludo">
+        Haz clic en mi!
+      </button>
+    </footer>
+  </body>
+  <script src="scrip-barra-responsive.js"></script>
+</html>

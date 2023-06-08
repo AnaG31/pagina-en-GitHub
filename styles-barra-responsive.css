@@ -1,0 +1,172 @@
+body {
+    background-color: gainsboro;
+    color: darkslategray;
+    margin: 0px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+button {
+    background-color: darkslategray;
+    font-weight: bold;
+    color: blanchedalmond;
+    margin-bottom: 40px;   
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 10px;
+    color: blanchedalmond;
+    margin-top: 10px;
+    align-content: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+li>a {
+    padding: 8px 24px;
+}
+.container-nav {
+    display: flex;
+    padding: 20px;
+    height: 10px;
+    background-color: darkslategray;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.button-menu {
+    display: none;
+}
+
+.container {
+    padding: 10px;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 30%;
+    height: 30%;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    height: 200px;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+    .nav-links {
+        display: none;
+    }
+    .button-menu {
+        display: block;
+        background-color: blanchedalmond;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+        color: darkslategray;
+        height: 25px;
+        
+    }
+    .nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgb(47, 79, 79, 0.95);
+        width: 100%;
+        height: 100%;
+        top: 45px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 40px;
+        color: blanchedalmond;
+    }
+   
+}
